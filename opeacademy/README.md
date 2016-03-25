@@ -77,6 +77,10 @@ Upcomihg Sessions under Filter dropdown
 Course under Group By dropdown
 <group expand="0" string="Group By"/>
    <filter name'"course" domain="[]" string="Course" context={'group_by' : 'course_id'}
+   
+Default filter
+Add <filter name=
+in ir.actions.act_window, add 
 
 
 
