@@ -17,34 +17,34 @@
 * Menu
 
 ##Day 3
-Environment - ORM API
-Decorators
-ORM Methods - Create, Write
-Relational Fields - One2many, Many2one,
-Inheritance - Model, View
-Domain
-onchange
-Compute fields
+* Environment - ORM API
+* Decorators
+* ORM Methods - Create, Write
+* Relational Fields - One2many, Many2one,
+* Inheritance - Model, View
+* Domain
+* onchange
+* Compute fields
 
 ##Day 4
-Reference: [Workflows] (https://www.odoo.com/documentation/9.0/reference/workflows.html)
+* Reference: [Workflows] (https://www.odoo.com/documentation/9.0/reference/workflows.html)
   Activities, Transitions
-Buttons - Status buttons
-Change attributes depending on 
-impt: Reporting
- Qweb - https://www.odoo.com/documentation/9.0/reference/qweb.html
- Qweb Reports - https://www.odoo.com/documentation/9.0/reference/reports.html
-impt: Wizards
-Chatter - Thread messaging
+* Buttons - Status buttons
+* Change attributes depending on 
+* impt: Reporting
+  * Qweb - https://www.odoo.com/documentation/9.0/reference/qweb.html
+  * Qweb Reports - https://www.odoo.com/documentation/9.0/reference/reports.html
+* impt: Wizards
+* Chatter - Thread messaging
 
 ##Day 5
-Security - Levels - User Login, Groups, Record Rule, Access Control List (ACL)
-Website - js folder, main layout
-Translation - Gengo module (gengo.com), Transifex (https://www.transifex.com/)
-Import/Export
-Web Services
-XML-RPC (Web Service API) - https://www.odoo.com/documentation/9.0/api_integration.html
-ref: OERPLib - https://pythonhosted.org/OERPLib/; Jigar's site - , ERPpeek https://github.com/tinyerp/erppeek
+* Security - Levels - User Login, Groups, Record Rule, Access Control List (ACL)
+* Website - js folder, main layout
+* Translation - Gengo module (gengo.com), Transifex (https://www.transifex.com/)
+* Import/Export
+* Web Services
+* XML-RPC (Web Service API) - https://www.odoo.com/documentation/9.0/api_integration.html
+* Reference: [OERPLib] (https://pythonhosted.org/OERPLib/); Jigar's site - , ERPpeek https://github.com/tinyerp/erppeek
 
 Server Actions ir.actions.server
 Documentation in Actions https://www.odoo.com/documentation/9.0/reference/actions.html
