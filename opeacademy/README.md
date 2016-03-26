@@ -2,14 +2,14 @@
 
 ##Day 1
 * Install Odoo
-* Command Line Interface - odoo.py https://www.odoo.com/documentation/9.0/reference/cmdline.html
+* Reference [Command Line Interface - odoo.py] (https://www.odoo.com/documentation/9.0/reference/cmdline.html)
 * ORM architecture
 * ORM API
 * MVC - Configuration options
 * Odoo Folders
 
 ##Day 2
-* [Building a Module] (https://www.odoo.com/documentation/9.0/howtos/backend.html)
+* Reference: [Building a Module] (https://www.odoo.com/documentation/9.0/howtos/backend.html)
 * Modules
 ORM Object - Base, Computed and Relational Fields
 Views https://www.odoo.com/documentation/9.0/reference/views.html
