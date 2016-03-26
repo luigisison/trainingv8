@@ -11,10 +11,10 @@
 ##Day 2
 * Reference: [Building a Module] (https://www.odoo.com/documentation/9.0/howtos/backend.html)
 * Modules
-ORM Object - Base, Computed and Relational Fields
-Reference: [Views] (https://www.odoo.com/documentation/9.0/reference/views.html)
-Action
-Menu
+* Object - Base, Computed and Relational Fields
+* Reference: [Views] (https://www.odoo.com/documentation/9.0/reference/views.html)
+* Action
+* Menu
 
 ##Day 3
 Environment - ORM API
@@ -75,8 +75,8 @@ Upcomihg Sessions under Filter dropdown
 <filter string="Upcoming Sessions" domain="start_date >+ datetime.datetime.now().strftime('%Y-%m-%d') + ' 00.00:00')]/>
 
 Course under Group By dropdown
-<group expand="0" string="Group By"/>
-   <filter name'"course" domain="[]" string="Course" context={'group_by' : 'course_id'}
+'''<group expand="0" string="Group By"/>
+   <filter name'"course" domain="[]" string="Course" context={'group_by' : 'course_id'}'''
    
 Default filter
 Add <filter name=
