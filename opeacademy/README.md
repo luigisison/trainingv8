@@ -57,10 +57,11 @@ Example: Run server action 324
   
 Company Properties - Specify value of a field for a company
 
-View Types: Kanban, Calendar, Graph, Pivot, Search
-Reference: https://www.odoo.com/documentation/9.0/reference/views.html
-Define view in ir.iu.view
-Add view in ir.actions.act_window.view_mode
+### View 
+* Types: Kanban, Calendar, Graph, Pivot, Search
+* Reference: https://www.odoo.com/documentation/9.0/reference/views.html
+* Define view in ir.iu.view
+* Add view in ir.actions.act_window.view_mode
 
 Add in module_views.xml
 compound search: filter_domain="['|', ('name, 'ilike', self), ('notes','ilike', self)]
@@ -71,15 +72,14 @@ compound search: filter_domain="['|', ('name, 'ilike', self), ('notes','ilike', 
 <separator/> #new separator defines an AND operation
 <filter string="Rejected Sessions" domain=[('state' ,"=","refect")]
 
-Upcomihg Sessions under Filter dropdown
+* Upcoming Sessions under Filter dropdown
 <filter string="Upcoming Sessions" domain="start_date >+ datetime.datetime.now().strftime('%Y-%m-%d') + ' 00.00:00')]/>
 
 * Course under Group By dropdown
-```xml
-<group expand="0" string="Group By"/>
+```<group expand="0" string="Group By"/>
    <filter name'"course" domain="[]" string="Course" context={'group_by' : 'course_id'}/>```
    
-Default filter
+* Default filter
 Add <filter name=
 in ir.actions.act_window, add 
 
