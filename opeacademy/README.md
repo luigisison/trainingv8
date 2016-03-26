@@ -50,14 +50,15 @@
   * [Jigar's Github] (https://github.com/jam-odoo/odoo-client-api)
   * [ERPpeek] (https://github.com/tinyerp/erppeek)
 
-Server Actions ir.actions.server
-Documentation in Actions https://www.odoo.com/documentation/9.0/reference/actions.html
-Menu - Automated Actions
-Install: Base import module
+###Server Actions 
+* ir.actions.server
+* [Reference in Actions] (https://www.odoo.com/documentation/9.0/reference/actions.html)
+* Menu - Automated Actions
+* Install: Base import module
 
-Scheduled Actions - a type of Cron
-Example: Run server action 324
-  Object = ir.actions.server, Method=run, Arguments [324], mimimum Interval Unit = 1 hour
+###Scheduled Actions
+* Example: Run server action 324
+  ```Object = ir.actions.server, Method=run, Arguments [324], mimimum Interval Unit = 1 hour```
   
 Company Properties - Specify value of a field for a company
 
