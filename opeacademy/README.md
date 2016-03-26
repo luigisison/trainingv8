@@ -1,22 +1,22 @@
-Technical Training Outline
+#Technical Training Outline
 
-Day 1
-Install Odoo
-Command Line Interface - odoo.py https://www.odoo.com/documentation/9.0/reference/cmdline.html
-ORM architecture
-ORM API
-MVC - Configuration options
-Odoo Folders
+##Day 1
+* Install Odoo
+* Command Line Interface - odoo.py https://www.odoo.com/documentation/9.0/reference/cmdline.html
+* ORM architecture
+* ORM API
+* MVC - Configuration options
+* Odoo Folders
 
-Day 2
-Building a Module (https://www.odoo.com/documentation/9.0/howtos/backend.html)
-Modules
+##Day 2
+* [Building a Module] (https://www.odoo.com/documentation/9.0/howtos/backend.html)
+* Modules
 ORM Object - Base, Computed and Relational Fields
 Views https://www.odoo.com/documentation/9.0/reference/views.html
 Action
 Menu
 
-Day 3
+##Day 3
 Environment - ORM API
 Decorators
 ORM Methods - Create, Write
@@ -26,7 +26,7 @@ Domain
 onchange
 Compute fields
 
-Day 4
+##Day 4
 impt: Workflows - https://www.odoo.com/documentation/9.0/reference/workflows.html
   Activities, Transitions
 Buttons - Status buttons
@@ -37,7 +37,7 @@ impt: Reporting
 impt: Wizards
 Chatter - Thread messaging
 
-Day 5
+##Day 5
 Security - Levels - User Login, Groups, Record Rule, Access Control List (ACL)
 Website - js folder, main layout
 Translation - Gengo module (gengo.com), Transifex (https://www.transifex.com/)
