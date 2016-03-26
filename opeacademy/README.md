@@ -74,7 +74,7 @@ compound search: filter_domain="['|', ('name, 'ilike', self), ('notes','ilike', 
 Upcomihg Sessions under Filter dropdown
 <filter string="Upcoming Sessions" domain="start_date >+ datetime.datetime.now().strftime('%Y-%m-%d') + ' 00.00:00')]/>
 
-Course under Group By dropdown
+* Course under Group By dropdown
 ```xml
 <group expand="0" string="Group By"/>
    <filter name'"course" domain="[]" string="Course" context={'group_by' : 'course_id'}/>```
