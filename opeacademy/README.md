@@ -78,7 +78,7 @@ _filter_domain="['|', ('name, 'ilike', self), ('notes','ilike', self)]_
 * <filter string="New Sessions" domain=[('state' ,"=","new")]
 * <filter string="Open Sessions" domain=[('state' ,"=","open")]
 * <separator/> #new separator defines an AND operation
-* <filter string="Rejected Sessions" domain=[('state' ,"=","refect")]```
+* <filter string="Rejected Sessions" domain=[('state' ,"=","refect")]
 
 * Upcoming Sessions under Filter dropdown
 ```<filter string="Upcoming Sessions" domain="start_date >+ datetime.datetime.now().strftime('%Y-%m-%d') + ' 00.00:00')]/>```
