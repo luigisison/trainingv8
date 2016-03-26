@@ -57,11 +57,12 @@
 * Install: Base import module
 
 ###Scheduled Actions
-* ```ir.cron```
+* ir.cron
 * _Settings/Technical/Automation/Scheduled Actions_
 * Example: Run server action 324
 
-  ```Object = ir.actions.server, Method=run, Arguments [324], minimum Interval Unit = 1 hour```
+  ```HTML, XML
+  Object = ir.actions.server, Method=run, Arguments [324], minimum Interval Unit = 1 hour```
   
 Company Properties - Specify value of a field for a company
 
