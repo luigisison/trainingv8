@@ -2,7 +2,7 @@
 
 ##Day 1
 * Install Odoo
-* Reference [Command Line Interface - odoo.py] (https://www.odoo.com/documentation/9.0/reference/cmdline.html)
+* Reference: [Command Line Interface - odoo.py] (https://www.odoo.com/documentation/9.0/reference/cmdline.html)
 * ORM architecture
 * ORM API
 * MVC - Configuration options
@@ -12,7 +12,7 @@
 * Reference: [Building a Module] (https://www.odoo.com/documentation/9.0/howtos/backend.html)
 * Modules
 ORM Object - Base, Computed and Relational Fields
-Views https://www.odoo.com/documentation/9.0/reference/views.html
+Reference: [Views] (https://www.odoo.com/documentation/9.0/reference/views.html)
 Action
 Menu
 
@@ -27,7 +27,7 @@ onchange
 Compute fields
 
 ##Day 4
-impt: Workflows - https://www.odoo.com/documentation/9.0/reference/workflows.html
+Reference: [Workflows] (https://www.odoo.com/documentation/9.0/reference/workflows.html)
   Activities, Transitions
 Buttons - Status buttons
 Change attributes depending on 
