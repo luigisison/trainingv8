@@ -42,9 +42,13 @@
 * Website - js folder, main layout
 * Translation - Gengo module (gengo.com), Transifex (https://www.transifex.com/)
 * Import/Export
-* Web Services
+
+###Web Services
 * XML-RPC (Web Service API) - https://www.odoo.com/documentation/9.0/api_integration.html
-* Reference: [OERPLib] (https://pythonhosted.org/OERPLib/); Jigar's site - , ERPpeek https://github.com/tinyerp/erppeek
+* Reference: 
+  * [OERPLib] (https://pythonhosted.org/OERPLib/); 
+  * [Jigar's Github] (https://github.com/jam-odoo/odoo-client-api)
+  * [ERPpeek] (https://github.com/tinyerp/erppeek)
 
 Server Actions ir.actions.server
 Documentation in Actions https://www.odoo.com/documentation/9.0/reference/actions.html
