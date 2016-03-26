@@ -57,6 +57,7 @@
 * Install: Base import module
 
 ###Scheduled Actions
+* ```ir.cron```
 * _Settings/Technical/Automation/Scheduled Actions_
 * Example: Run server action 324
 
