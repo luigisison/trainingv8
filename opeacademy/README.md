@@ -77,21 +77,17 @@
 _filter_domain="['|', ('name, 'ilike', self), ('notes','ilike', self)]_
 
 * <separator/> #filters within the same separator define an OR operation
-* <filter string="New Sessions" domain=[('state' ,"=","new")]
-* <filter string="Open Sessions" domain=[('state' ,"=","open")]
+  * <filter string="New Sessions" domain=[('state' ,"=","new")]
+  * <filter string="Open Sessions" domain=[('state' ,"=","open")]
 * <separator/> #new separator defines an AND operation
-* <filter string="Rejected Sessions" domain=[('state' ,"=","refect")]
-
+*   <filter string="Rejected Sessions" domain=[('state' ,"=","refect")
 * Upcoming Sessions under Filter dropdown
 ```<filter string="Upcoming Sessions" domain="start_date >+ datetime.datetime.now().strftime('%Y-%m-%d') + ' 00.00:00')]/>```
 
 #### Course under _Group By_ dropdown
 * <group expand="0" string="Group By"/>
 * <filter name'"course" domain="[]" string="Course" context={'group_by' : 'course_id'}/>
-   
-* Default filter
-* Add <filter name= in ir.actions.act_window, add 
-* 
+* Default filter: syntax??
 
 ###References
 
