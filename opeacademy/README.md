@@ -39,6 +39,8 @@
 
 ##Day 5
 * Security - Levels - User Login, Groups, Record Rule, Access Control List (ACL)
+  * Specify via CSV import; CSV file name = ir.model.access.csv
+  * Add as first entry in data section of ```__openerp__.py```, security/ir.model.access.csv
 * Website - js folder, main layout
 * Translation - Gengo module (gengo.com), Transifex (https://www.transifex.com/)
 * Import/Export
@@ -94,6 +96,8 @@ _filter_domain="['|', ('name, 'ilike', self), ('notes','ilike', self)]_
 ###References
 
 [A guide to Python's function decorators] (http://thecodeship.com/patterns/guide-to-python-function-decorators/)
+[Odoo New API Guidelines - Decorators] (http://odoo-new-api-guide-line.readthedocs.org/en/latest/decorator.html)
+[XML-RPC in OERPLib] (https://pythonhosted.org/OERPLib/)
 
 
 
