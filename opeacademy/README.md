@@ -77,7 +77,7 @@
 _filter_domain="['|', ('name, 'ilike', self), ('notes','ilike', self)]_
 
 * <separator/> #filters within the same separator define an OR operation
-  * <filter string="New Sessions" domain=[('state' ,"=","new")]
+  * ```<filter string="New Sessions" domain=[('state' ,"=","new")]/>```
   * <filter string="Open Sessions" domain=[('state' ,"=","open")]
 * <separator/> #new separator defines an AND operation
 *   <filter string="Rejected Sessions" domain=[('state' ,"=","refect")
@@ -87,7 +87,7 @@ _filter_domain="['|', ('name, 'ilike', self), ('notes','ilike', self)]_
 ### Course under _Group By_ dropdown
 * Syntax
   * ```<group expand="0" string="Group By"/>```
-  * <filter name'"course" domain="[]" string="Course" context={'group_by' : 'course_id'}/>
+  * ```<filter name'"course" domain="[]" string="Course" context={'group_by' : 'course_id'}/>```
 * Default filter: syntax??
 
 ###References
