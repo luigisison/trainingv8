@@ -73,14 +73,13 @@
 * Add view in ir.actions.act_window.view_mode
 
 * Add in module_views.xml
-* compound search: 
-_filter_domain="['|', ('name, 'ilike', self), ('notes','ilike', self)]_
+* compound search: ```filter_domain="['|', ('name, 'ilike', self), ('notes','ilike', self)]```
 
-* <separator/> #filters within the same separator define an OR operation
-  * ```<filter string="New Sessions" domain=[('state' ,"=","new")]/>```
-  * <filter string="Open Sessions" domain=[('state' ,"=","open")]
-* <separator/> #new separator defines an AND operation
-*   <filter string="Rejected Sessions" domain=[('state' ,"=","refect")
+* ```<separator/> #filters within the same separator define an OR operation```
+* ```<filter string="New Sessions" domain=[('state' ,"=","new")]/>```
+* ```<filter string="Open Sessions" domain=[('state' ,"=","open")]```
+* ```<separator/> #new separator defines an AND operation```
+* ```<filter string="Rejected Sessions" domain=[('state' ,"=","refect")```
 * Upcoming Sessions under Filter dropdown
 ```<filter string="Upcoming Sessions" domain="start_date >+ datetime.datetime.now().strftime('%Y-%m-%d') + ' 00.00:00')]/>```
 
