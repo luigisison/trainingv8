@@ -89,6 +89,11 @@ _filter_domain="['|', ('name, 'ilike', self), ('notes','ilike', self)]_
    
 * Default filter
 * Add <filter name= in ir.actions.act_window, add 
+* 
+
+###References
+
+[A guide to Python's function decorators] (http://thecodeship.com/patterns/guide-to-python-function-decorators/)
 
 
 
