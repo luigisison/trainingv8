@@ -86,7 +86,7 @@ _filter_domain="['|', ('name, 'ilike', self), ('notes','ilike', self)]_
 
 ### Course under _Group By_ dropdown
 * Syntax
-  * <group expand="0" string="Group By"/>
+  * ```<group expand="0" string="Group By"/>```
   * <filter name'"course" domain="[]" string="Course" context={'group_by' : 'course_id'}/>
 * Default filter: syntax??
 
